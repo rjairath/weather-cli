@@ -21,3 +21,4 @@ request(url, function(err, response, body){
         console.log(`It's ${weather.main.temp} in ${weather.name}`);
     }
 });
+// console.log(process.env);
